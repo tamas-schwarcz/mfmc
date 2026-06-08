@@ -1,0 +1,13 @@
+# Python >= 3.11 is required for the supported reproduction environment.
+#
+# The pipeline scripts (mfmc_runner.py, mfmc_verifier.py, publish_artifacts.py)
+# and CNF generation in mfmc.py use only the Python standard library.
+#
+# The single external Python dependency below is needed ONLY for
+#     python mfmc.py --self-check
+# which uses a SAT solver via PySAT to confirm each generated instance is UNSAT.
+#
+# The SAT solver (CaDiCaL) and the proof checker (drat-trim) are external
+# binaries, NOT Python packages, and must be installed separately. See README.
+
+python-sat

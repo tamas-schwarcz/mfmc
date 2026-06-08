@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "version": "v1.0",
+  "generated_at": "2026-06-08T10:06:06.757133+00:00",
+  "verified_dimensions": {
+    "dimensions": [
+      "d5",
+      "d6",
+      "d7",
+      "d8",
+      "d9"
+    ],
+    "counts_by_folder": {
+      "d5": {
+        "instances": 1,
+        "verified_unsat": 1,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
+      },
+      "d6": {
+        "instances": 4,
+        "verified_unsat": 4,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
+      },
+      "d7": {
+        "instances": 10,
+        "verified_unsat": 10,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
+      },
+      "d8": {
+        "instances": 18,
+        "verified_unsat": 18,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
+      },
+      "d9": {
+        "instances": 58,
+        "verified_unsat": 58,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
+      }
+    },
+    "all_verified_green": true
+  },
+  "pending_dimensions": {
+    "dimensions": [
+      "d10up"
+    ],
+    "counts_by_folder": {
+      "d10up": {
+        "instances": 130,
+        "solved_unverified": 130,
+        "bad": 0,
+        "incomplete": 0,
+        "all_solved": true
+      }
+    },
+    "all_solved": true,
+    "note": "proofs produced but not yet independently checked with drat-trim"
+  }
+}

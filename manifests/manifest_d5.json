@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "version": "v1.0",
+  "folder": "d5",
+  "family": "general",
+  "d": 5,
+  "instances": [
+    {
+      "instance": "d5_instance001.cnf",
+      "d": 5,
+      "cnf_path": "cnfs/d5/d5_instance001.cnf",
+      "drat_path": "proofs/d5/d5_instance001.drat",
+      "run_json_path": "metadata/d5/d5_instance001.run.json",
+      "check_json_path": "metadata/d5/d5_instance001.check.json",
+      "tau": 3,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "7062bd351bcb6158b64bd9b4218b777084da98ea99b7ca8d73c4a4bce235b253",
+      "drat_sha256": "2904d899f827700562eef03cc6b50fe292664955faf1b2c3b90c542e7509f7ea",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.007470718992408365
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.10831156600033864
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    }
+  ],
+  "verification": "verified",
+  "counts": {
+    "instances": 1,
+    "verified_unsat": 1,
+    "bad": 0,
+    "incomplete": 0,
+    "all_green": true
+  }
+}

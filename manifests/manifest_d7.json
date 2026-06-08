@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "version": "v1.0",
+  "folder": "d7",
+  "family": "general",
+  "d": 7,
+  "instances": [
+    {
+      "instance": "d7_instance001.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance001.cnf",
+      "drat_path": "proofs/d7/d7_instance001.drat",
+      "run_json_path": "metadata/d7/d7_instance001.run.json",
+      "check_json_path": "metadata/d7/d7_instance001.check.json",
+      "tau": 3,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tight": false,
+      "up_monotone": false,
+      "cnf_sha256": "d306d63584a427957f3735e327b2662c0bf39d09e325d5ff564c635813fb3f80",
+      "drat_sha256": "3dcb1346cf3f0af95006c01f31394572857bc7e7ae71df6d204abd1b7f6373a5",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 2.278387593003572
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1.400578029002645
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance002.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance002.cnf",
+      "drat_path": "proofs/d7/d7_instance002.drat",
+      "run_json_path": "metadata/d7/d7_instance002.run.json",
+      "check_json_path": "metadata/d7/d7_instance002.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "tight": false,
+      "up_monotone": false,
+      "cnf_sha256": "bfde1d15b4d94909935a6d5ed758959cc1309c367760f70a13b7f98ff8eb53df",
+      "drat_sha256": "9563d321a70829a27d07fd31530c0d1ad60e4247bb25dd81b16e7b293dd45dbc",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.6639538419985911
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.39309730000968557
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance003.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance003.cnf",
+      "drat_path": "proofs/d7/d7_instance003.drat",
+      "run_json_path": "metadata/d7/d7_instance003.run.json",
+      "check_json_path": "metadata/d7/d7_instance003.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "tight": false,
+      "up_monotone": false,
+      "cnf_sha256": "386fd253509c13dc15871c79b6efdbf98bc3f969f68d97d30d80e263947269c8",
+      "drat_sha256": "6bcf3082f4187582a17d976e02b3ab239ac1d608819e9c93fffbf27124417fa9",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 1.9211388050025562
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.7574685010040412
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance004.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance004.cnf",
+      "drat_path": "proofs/d7/d7_instance004.drat",
+      "run_json_path": "metadata/d7/d7_instance004.run.json",
+      "check_json_path": "metadata/d7/d7_instance004.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "tight": false,
+      "up_monotone": false,
+      "cnf_sha256": "8b36bb2e4f3f0249c92e2e1d150f849b978056a272cb9c2800ce769211d4816b",
+      "drat_sha256": "78333c9753bd16c72ef5ace5b86049d70631a93a32f75e104b52057d490432dd",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 2.722618757004966
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1.4859052040119423
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance005.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance005.cnf",
+      "drat_path": "proofs/d7/d7_instance005.drat",
+      "run_json_path": "metadata/d7/d7_instance005.run.json",
+      "check_json_path": "metadata/d7/d7_instance005.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "tight": false,
+      "up_monotone": false,
+      "cnf_sha256": "db4270d69b60a89f6f5f8f5dbbc12776359b842bf37e588bc7c047b55500f34e",
+      "drat_sha256": "ad9c726ed48c6ec519d84d70633783634af460a57a284c614c414abab2abf26e",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 2.1431967099924805
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1.2301844600006007
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance006.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance006.cnf",
+      "drat_path": "proofs/d7/d7_instance006.drat",
+      "run_json_path": "metadata/d7/d7_instance006.run.json",
+      "check_json_path": "metadata/d7/d7_instance006.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "724098a9d2787a94601f76c63beb82b32886bded588587d7b57f5cab3ab9310f",
+      "drat_sha256": "27a68dfc077c53c61a5cc1ec85dd5521a0db030ddabcfd9de38368acc040873c",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.05241706701053772
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.28074398200260475
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance007.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance007.cnf",
+      "drat_path": "proofs/d7/d7_instance007.drat",
+      "run_json_path": "metadata/d7/d7_instance007.run.json",
+      "check_json_path": "metadata/d7/d7_instance007.check.json",
+      "tau": 4,
+      "w": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "f8149087102fbffbba1b9f7d9777a65e722ec4dab22a70a105dd97407b2d1425",
+      "drat_sha256": "2dd0c81ffbe9696a729f7866ae56125cd5ac5cda51529428661b36eada50d00f",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.07000660800258629
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.28228178901190404
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance008.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance008.cnf",
+      "drat_path": "proofs/d7/d7_instance008.drat",
+      "run_json_path": "metadata/d7/d7_instance008.run.json",
+      "check_json_path": "metadata/d7/d7_instance008.check.json",
+      "tau": 5,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "4b1c4ba1a0d4e042fed472b35b548bd5b6495610eceed58a1096ee37cbb68656",
+      "drat_sha256": "44a7cf4ef05ca75571469a043fc1e6dc84cf895252cdd03ede13330d5ed9ad53",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.0745194960036315
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.27826181599812116
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance009.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance009.cnf",
+      "drat_path": "proofs/d7/d7_instance009.drat",
+      "run_json_path": "metadata/d7/d7_instance009.run.json",
+      "check_json_path": "metadata/d7/d7_instance009.check.json",
+      "tau": 5,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "07c0fc7330af3887b6ee0a5b7f92d88c00553fad8086f4140bcbfc3e285007d4",
+      "drat_sha256": "bdab01d73f11a2f8bcfbcff7ecd70d36ed6fd713070a192031cf3f413534e7ff",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.07209219600190409
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.19583182700444013
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    },
+    {
+      "instance": "d7_instance010.cnf",
+      "d": 7,
+      "cnf_path": "cnfs/d7/d7_instance010.cnf",
+      "drat_path": "proofs/d7/d7_instance010.drat",
+      "run_json_path": "metadata/d7/d7_instance010.run.json",
+      "check_json_path": "metadata/d7/d7_instance010.check.json",
+      "tau": 5,
+      "w": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "tight": true,
+      "up_monotone": false,
+      "cnf_sha256": "e1caf6eb7dabe69b06815cae6f543bd0631f1ee64bef2449f6bc569c129e6e4e",
+      "drat_sha256": "1168fa067c6775dedf3dac293086b8fda0b22952e6e673c56e9667f14d58e7bf",
+      "solver": {
+        "result": "unsat",
+        "result_consistent": true,
+        "returncode": 20,
+        "wall_seconds": 0.040098568992107175
+      },
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 0.16146506200311705
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
+    }
+  ],
+  "verification": "verified",
+  "counts": {
+    "instances": 10,
+    "verified_unsat": 10,
+    "bad": 0,
+    "incomplete": 0,
+    "all_green": true
+  }
+}
