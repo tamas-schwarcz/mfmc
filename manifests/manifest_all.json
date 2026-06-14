@@ -1,14 +1,15 @@
 {
   "schema_version": "1.0",
   "version": "v1.0",
-  "generated_at": "2026-06-08T10:06:06.757133+00:00",
+  "generated_at": "2026-06-14T21:09:45.902587+00:00",
   "verified_dimensions": {
     "dimensions": [
       "d5",
       "d6",
       "d7",
       "d8",
-      "d9"
+      "d9",
+      "d10up"
     ],
     "counts_by_folder": {
       "d5": {
@@ -45,23 +46,20 @@
         "bad": 0,
         "incomplete": 0,
         "all_green": true
+      },
+      "d10up": {
+        "instances": 130,
+        "verified_unsat": 130,
+        "bad": 0,
+        "incomplete": 0,
+        "all_green": true
       }
     },
     "all_verified_green": true
   },
   "pending_dimensions": {
-    "dimensions": [
-      "d10up"
-    ],
-    "counts_by_folder": {
-      "d10up": {
-        "instances": 130,
-        "solved_unverified": 130,
-        "bad": 0,
-        "incomplete": 0,
-        "all_solved": true
-      }
-    },
+    "dimensions": [],
+    "counts_by_folder": {},
     "all_solved": true,
     "note": "proofs produced but not yet independently checked with drat-trim"
   }

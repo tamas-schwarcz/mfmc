@@ -11,6 +11,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance001.cnf",
       "drat_path": "proofs/d10up/d10up_instance001.drat",
       "run_json_path": "metadata/d10up/d10up_instance001.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance001.check.json",
       "tau": 3,
       "w": [
         1,
@@ -32,11 +33,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 10995.416920763033,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 10995.416920763033
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 25494.651085711987
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance002.cnf",
@@ -44,6 +55,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance002.cnf",
       "drat_path": "proofs/d10up/d10up_instance002.drat",
       "run_json_path": "metadata/d10up/d10up_instance002.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance002.check.json",
       "tau": 4,
       "w": [
         1,
@@ -65,11 +77,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2381.3874014389585,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2381.3874014389585
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4264.447258105007
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance003.cnf",
@@ -77,6 +99,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance003.cnf",
       "drat_path": "proofs/d10up/d10up_instance003.drat",
       "run_json_path": "metadata/d10up/d10up_instance003.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance003.check.json",
       "tau": 4,
       "w": [
         1,
@@ -98,11 +121,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5528.186065924994,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5528.186065924994
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 8642.032866825
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance004.cnf",
@@ -110,6 +143,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance004.cnf",
       "drat_path": "proofs/d10up/d10up_instance004.drat",
       "run_json_path": "metadata/d10up/d10up_instance004.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance004.check.json",
       "tau": 4,
       "w": [
         1,
@@ -131,11 +165,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 15662.525362420012,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 15662.525362420012
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 30201.586625997996
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance005.cnf",
@@ -143,6 +187,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance005.cnf",
       "drat_path": "proofs/d10up/d10up_instance005.drat",
       "run_json_path": "metadata/d10up/d10up_instance005.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance005.check.json",
       "tau": 4,
       "w": [
         1,
@@ -164,11 +209,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 28287.79495455703,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 28287.79495455703
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 57700.186789849016
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance006.cnf",
@@ -176,6 +231,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance006.cnf",
       "drat_path": "proofs/d10up/d10up_instance006.drat",
       "run_json_path": "metadata/d10up/d10up_instance006.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance006.check.json",
       "tau": 4,
       "w": [
         1,
@@ -197,11 +253,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 26582.291416061984,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 26582.291416061984
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 44361.935805763
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance007.cnf",
@@ -209,6 +275,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance007.cnf",
       "drat_path": "proofs/d10up/d10up_instance007.drat",
       "run_json_path": "metadata/d10up/d10up_instance007.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance007.check.json",
       "tau": 4,
       "w": [
         1,
@@ -230,11 +297,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 10593.110795279033,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 10593.110795279033
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 17750.74103202601
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance008.cnf",
@@ -242,6 +319,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance008.cnf",
       "drat_path": "proofs/d10up/d10up_instance008.drat",
       "run_json_path": "metadata/d10up/d10up_instance008.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance008.check.json",
       "tau": 4,
       "w": [
         1,
@@ -263,11 +341,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2093.2991255730158,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2093.2991255730158
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2997.8595981239923
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance009.cnf",
@@ -275,6 +363,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance009.cnf",
       "drat_path": "proofs/d10up/d10up_instance009.drat",
       "run_json_path": "metadata/d10up/d10up_instance009.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance009.check.json",
       "tau": 4,
       "w": [
         1,
@@ -296,11 +385,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 575.2987297060317,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 575.2987297060317
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 663.7525451630063
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance010.cnf",
@@ -308,6 +407,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance010.cnf",
       "drat_path": "proofs/d10up/d10up_instance010.drat",
       "run_json_path": "metadata/d10up/d10up_instance010.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance010.check.json",
       "tau": 4,
       "w": [
         1,
@@ -329,11 +429,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 56.981082814978436,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 56.981082814978436
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 29.61672680400079
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance011.cnf",
@@ -341,6 +451,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance011.cnf",
       "drat_path": "proofs/d10up/d10up_instance011.drat",
       "run_json_path": "metadata/d10up/d10up_instance011.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance011.check.json",
       "tau": 4,
       "w": [
         1,
@@ -362,11 +473,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 3.030222900037188,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 3.030222900037188
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.27418965799734
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance012.cnf",
@@ -374,6 +495,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance012.cnf",
       "drat_path": "proofs/d10up/d10up_instance012.drat",
       "run_json_path": "metadata/d10up/d10up_instance012.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance012.check.json",
       "tau": 5,
       "w": [
         1,
@@ -395,11 +517,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 105.59589486703044,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 105.59589486703044
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 165.34381471699453
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance013.cnf",
@@ -407,6 +539,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance013.cnf",
       "drat_path": "proofs/d10up/d10up_instance013.drat",
       "run_json_path": "metadata/d10up/d10up_instance013.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance013.check.json",
       "tau": 5,
       "w": [
         1,
@@ -428,11 +561,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 714.8792100599967,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 714.8792100599967
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1154.117492061021
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance014.cnf",
@@ -440,6 +583,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance014.cnf",
       "drat_path": "proofs/d10up/d10up_instance014.drat",
       "run_json_path": "metadata/d10up/d10up_instance014.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance014.check.json",
       "tau": 5,
       "w": [
         1,
@@ -461,11 +605,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 4010.5443692950066,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 4010.5443692950066
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5520.640318498976
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance015.cnf",
@@ -473,6 +627,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance015.cnf",
       "drat_path": "proofs/d10up/d10up_instance015.drat",
       "run_json_path": "metadata/d10up/d10up_instance015.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance015.check.json",
       "tau": 5,
       "w": [
         1,
@@ -494,11 +649,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 10284.49493318802,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 10284.49493318802
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 12425.244127011014
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance016.cnf",
@@ -506,6 +671,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance016.cnf",
       "drat_path": "proofs/d10up/d10up_instance016.drat",
       "run_json_path": "metadata/d10up/d10up_instance016.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance016.check.json",
       "tau": 5,
       "w": [
         1,
@@ -527,11 +693,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 12903.451590914978,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 12903.451590914978
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 16815.512975738005
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance017.cnf",
@@ -539,6 +715,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance017.cnf",
       "drat_path": "proofs/d10up/d10up_instance017.drat",
       "run_json_path": "metadata/d10up/d10up_instance017.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance017.check.json",
       "tau": 5,
       "w": [
         1,
@@ -560,11 +737,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 15797.489741850994,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 15797.489741850994
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 20346.450940607
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance018.cnf",
@@ -572,6 +759,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance018.cnf",
       "drat_path": "proofs/d10up/d10up_instance018.drat",
       "run_json_path": "metadata/d10up/d10up_instance018.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance018.check.json",
       "tau": 5,
       "w": [
         1,
@@ -593,11 +781,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 12465.912347593985,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 12465.912347593985
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 15402.235243923991
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance019.cnf",
@@ -605,6 +803,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance019.cnf",
       "drat_path": "proofs/d10up/d10up_instance019.drat",
       "run_json_path": "metadata/d10up/d10up_instance019.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance019.check.json",
       "tau": 5,
       "w": [
         1,
@@ -626,11 +825,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 3354.7964110790053,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 3354.7964110790053
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5118.405985431018
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance020.cnf",
@@ -638,6 +847,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance020.cnf",
       "drat_path": "proofs/d10up/d10up_instance020.drat",
       "run_json_path": "metadata/d10up/d10up_instance020.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance020.check.json",
       "tau": 5,
       "w": [
         1,
@@ -659,11 +869,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 33.57622597302543,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 33.57622597302543
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 18.502549319993705
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance021.cnf",
@@ -671,6 +891,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance021.cnf",
       "drat_path": "proofs/d10up/d10up_instance021.drat",
       "run_json_path": "metadata/d10up/d10up_instance021.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance021.check.json",
       "tau": 5,
       "w": [
         1,
@@ -692,11 +913,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 59.74993997300044,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 59.74993997300044
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 18.559140823985217
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance022.cnf",
@@ -704,6 +935,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance022.cnf",
       "drat_path": "proofs/d10up/d10up_instance022.drat",
       "run_json_path": "metadata/d10up/d10up_instance022.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance022.check.json",
       "tau": 5,
       "w": [
         2,
@@ -725,11 +957,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 49.82518725504633,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 49.82518725504633
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 58.12446359501337
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance023.cnf",
@@ -737,6 +979,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance023.cnf",
       "drat_path": "proofs/d10up/d10up_instance023.drat",
       "run_json_path": "metadata/d10up/d10up_instance023.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance023.check.json",
       "tau": 6,
       "w": [
         1,
@@ -758,11 +1001,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.9269910239963792,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.9269910239963792
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.921783641999355
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance024.cnf",
@@ -770,6 +1023,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance024.cnf",
       "drat_path": "proofs/d10up/d10up_instance024.drat",
       "run_json_path": "metadata/d10up/d10up_instance024.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance024.check.json",
       "tau": 6,
       "w": [
         1,
@@ -791,11 +1045,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 62.28384408802958,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 62.28384408802958
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 136.89417120901635
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance025.cnf",
@@ -803,6 +1067,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance025.cnf",
       "drat_path": "proofs/d10up/d10up_instance025.drat",
       "run_json_path": "metadata/d10up/d10up_instance025.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance025.check.json",
       "tau": 6,
       "w": [
         1,
@@ -824,11 +1089,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 128.3125448609935,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 128.3125448609935
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 227.90476099800435
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance026.cnf",
@@ -836,6 +1111,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance026.cnf",
       "drat_path": "proofs/d10up/d10up_instance026.drat",
       "run_json_path": "metadata/d10up/d10up_instance026.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance026.check.json",
       "tau": 6,
       "w": [
         1,
@@ -857,11 +1133,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 290.8496431509848,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 290.8496431509848
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 590.1000796559965
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance027.cnf",
@@ -869,6 +1155,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance027.cnf",
       "drat_path": "proofs/d10up/d10up_instance027.drat",
       "run_json_path": "metadata/d10up/d10up_instance027.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance027.check.json",
       "tau": 6,
       "w": [
         1,
@@ -890,11 +1177,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 436.9568826680188,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 436.9568826680188
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 793.3667702380044
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance028.cnf",
@@ -902,6 +1199,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance028.cnf",
       "drat_path": "proofs/d10up/d10up_instance028.drat",
       "run_json_path": "metadata/d10up/d10up_instance028.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance028.check.json",
       "tau": 6,
       "w": [
         1,
@@ -923,11 +1221,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 809.1361821710016,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 809.1361821710016
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1267.252799267997
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance029.cnf",
@@ -935,6 +1243,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance029.cnf",
       "drat_path": "proofs/d10up/d10up_instance029.drat",
       "run_json_path": "metadata/d10up/d10up_instance029.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance029.check.json",
       "tau": 6,
       "w": [
         1,
@@ -956,11 +1265,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1509.27962337801,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1509.27962337801
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2093.5433487950068
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance030.cnf",
@@ -968,6 +1287,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance030.cnf",
       "drat_path": "proofs/d10up/d10up_instance030.drat",
       "run_json_path": "metadata/d10up/d10up_instance030.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance030.check.json",
       "tau": 6,
       "w": [
         1,
@@ -989,11 +1309,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 3448.4329316660296,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 3448.4329316660296
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4691.004051393014
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance031.cnf",
@@ -1001,6 +1331,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance031.cnf",
       "drat_path": "proofs/d10up/d10up_instance031.drat",
       "run_json_path": "metadata/d10up/d10up_instance031.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance031.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1022,11 +1353,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2384.209102423978,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2384.209102423978
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3151.9388052430004
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance032.cnf",
@@ -1034,6 +1375,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance032.cnf",
       "drat_path": "proofs/d10up/d10up_instance032.drat",
       "run_json_path": "metadata/d10up/d10up_instance032.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance032.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1055,11 +1397,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 586.3159254369675,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 586.3159254369675
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 727.7040516109846
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance033.cnf",
@@ -1067,6 +1419,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance033.cnf",
       "drat_path": "proofs/d10up/d10up_instance033.drat",
       "run_json_path": "metadata/d10up/d10up_instance033.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance033.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1088,11 +1441,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 3891.0464450299623,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 3891.0464450299623
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4732.491933009005
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance034.cnf",
@@ -1100,6 +1463,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance034.cnf",
       "drat_path": "proofs/d10up/d10up_instance034.drat",
       "run_json_path": "metadata/d10up/d10up_instance034.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance034.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1121,11 +1485,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5359.406106064969,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5359.406106064969
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 6264.098407640995
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance035.cnf",
@@ -1133,6 +1507,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance035.cnf",
       "drat_path": "proofs/d10up/d10up_instance035.drat",
       "run_json_path": "metadata/d10up/d10up_instance035.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance035.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1154,11 +1529,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 4319.700444216025,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 4319.700444216025
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5238.390012321004
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance036.cnf",
@@ -1166,6 +1551,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance036.cnf",
       "drat_path": "proofs/d10up/d10up_instance036.drat",
       "run_json_path": "metadata/d10up/d10up_instance036.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance036.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1187,11 +1573,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1601.852076629002,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1601.852076629002
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1650.8913350910007
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance037.cnf",
@@ -1199,6 +1595,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance037.cnf",
       "drat_path": "proofs/d10up/d10up_instance037.drat",
       "run_json_path": "metadata/d10up/d10up_instance037.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance037.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1220,11 +1617,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 390.8958316940116,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 390.8958316940116
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 404.99742481598514
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance038.cnf",
@@ -1232,6 +1639,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance038.cnf",
       "drat_path": "proofs/d10up/d10up_instance038.drat",
       "run_json_path": "metadata/d10up/d10up_instance038.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance038.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1253,11 +1661,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5203.425695816986,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5203.425695816986
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 6131.663314667996
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance039.cnf",
@@ -1265,6 +1683,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance039.cnf",
       "drat_path": "proofs/d10up/d10up_instance039.drat",
       "run_json_path": "metadata/d10up/d10up_instance039.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance039.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1286,11 +1705,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 6728.388981533004,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 6728.388981533004
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 8603.139183819003
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance040.cnf",
@@ -1298,6 +1727,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance040.cnf",
       "drat_path": "proofs/d10up/d10up_instance040.drat",
       "run_json_path": "metadata/d10up/d10up_instance040.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance040.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1319,11 +1749,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 4463.7377210480045,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 4463.7377210480045
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4237.834952033998
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance041.cnf",
@@ -1331,6 +1771,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance041.cnf",
       "drat_path": "proofs/d10up/d10up_instance041.drat",
       "run_json_path": "metadata/d10up/d10up_instance041.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance041.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1352,11 +1793,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2225.112948025984,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2225.112948025984
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1938.6508814789995
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance042.cnf",
@@ -1364,6 +1815,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance042.cnf",
       "drat_path": "proofs/d10up/d10up_instance042.drat",
       "run_json_path": "metadata/d10up/d10up_instance042.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance042.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1385,11 +1837,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 569.6398911080323,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 569.6398911080323
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 649.1384986460034
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance043.cnf",
@@ -1397,6 +1859,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance043.cnf",
       "drat_path": "proofs/d10up/d10up_instance043.drat",
       "run_json_path": "metadata/d10up/d10up_instance043.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance043.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1418,11 +1881,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 162.64475428999867,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 162.64475428999867
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 258.0108806650096
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance044.cnf",
@@ -1430,6 +1903,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance044.cnf",
       "drat_path": "proofs/d10up/d10up_instance044.drat",
       "run_json_path": "metadata/d10up/d10up_instance044.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance044.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1451,11 +1925,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 6003.245406718983,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 6003.245406718983
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 7327.958165797987
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance045.cnf",
@@ -1463,6 +1947,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance045.cnf",
       "drat_path": "proofs/d10up/d10up_instance045.drat",
       "run_json_path": "metadata/d10up/d10up_instance045.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance045.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1484,11 +1969,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 8798.491244639037,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 8798.491244639037
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 8997.253787564987
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance046.cnf",
@@ -1496,6 +1991,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance046.cnf",
       "drat_path": "proofs/d10up/d10up_instance046.drat",
       "run_json_path": "metadata/d10up/d10up_instance046.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance046.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1517,11 +2013,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 6414.5278104579775,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 6414.5278104579775
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 6551.8981710149965
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance047.cnf",
@@ -1529,6 +2035,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance047.cnf",
       "drat_path": "proofs/d10up/d10up_instance047.drat",
       "run_json_path": "metadata/d10up/d10up_instance047.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance047.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1550,11 +2057,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 3252.8565452560433,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 3252.8565452560433
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2696.3344746849907
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance048.cnf",
@@ -1562,6 +2079,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance048.cnf",
       "drat_path": "proofs/d10up/d10up_instance048.drat",
       "run_json_path": "metadata/d10up/d10up_instance048.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance048.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1583,11 +2101,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1276.0969148270087,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1276.0969148270087
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 974.7545349790016
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance049.cnf",
@@ -1595,6 +2123,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance049.cnf",
       "drat_path": "proofs/d10up/d10up_instance049.drat",
       "run_json_path": "metadata/d10up/d10up_instance049.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance049.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1616,11 +2145,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 439.29924099502387,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 439.29924099502387
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 326.6903244050045
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance050.cnf",
@@ -1628,6 +2167,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance050.cnf",
       "drat_path": "proofs/d10up/d10up_instance050.drat",
       "run_json_path": "metadata/d10up/d10up_instance050.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance050.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1649,11 +2189,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 147.95821023301687,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 147.95821023301687
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 103.0936940110114
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance051.cnf",
@@ -1661,6 +2211,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance051.cnf",
       "drat_path": "proofs/d10up/d10up_instance051.drat",
       "run_json_path": "metadata/d10up/d10up_instance051.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance051.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1682,11 +2233,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 9436.449156660994,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 9436.449156660994
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 15297.86322944201
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance052.cnf",
@@ -1694,6 +2255,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance052.cnf",
       "drat_path": "proofs/d10up/d10up_instance052.drat",
       "run_json_path": "metadata/d10up/d10up_instance052.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance052.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1715,11 +2277,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5121.123839982029,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5121.123839982029
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 6134.2388469029975
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance053.cnf",
@@ -1727,6 +2299,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance053.cnf",
       "drat_path": "proofs/d10up/d10up_instance053.drat",
       "run_json_path": "metadata/d10up/d10up_instance053.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance053.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1748,11 +2321,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2109.5308202540036,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2109.5308202540036
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2080.6017976930016
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance054.cnf",
@@ -1760,6 +2343,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance054.cnf",
       "drat_path": "proofs/d10up/d10up_instance054.drat",
       "run_json_path": "metadata/d10up/d10up_instance054.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance054.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1781,11 +2365,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 578.5694828070118,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 578.5694828070118
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 611.4451731829904
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance055.cnf",
@@ -1793,6 +2387,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance055.cnf",
       "drat_path": "proofs/d10up/d10up_instance055.drat",
       "run_json_path": "metadata/d10up/d10up_instance055.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance055.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1814,11 +2409,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 254.37652124697343,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 254.37652124697343
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 431.56166092999047
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance056.cnf",
@@ -1826,6 +2431,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance056.cnf",
       "drat_path": "proofs/d10up/d10up_instance056.drat",
       "run_json_path": "metadata/d10up/d10up_instance056.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance056.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1847,11 +2453,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 228.8181922599906,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 228.8181922599906
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 226.71440471100505
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance057.cnf",
@@ -1859,6 +2475,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance057.cnf",
       "drat_path": "proofs/d10up/d10up_instance057.drat",
       "run_json_path": "metadata/d10up/d10up_instance057.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance057.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1880,11 +2497,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.2639126010471955,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.2639126010471955
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.477382696000859
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance058.cnf",
@@ -1892,6 +2519,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance058.cnf",
       "drat_path": "proofs/d10up/d10up_instance058.drat",
       "run_json_path": "metadata/d10up/d10up_instance058.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance058.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1913,11 +2541,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.047494900994934,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.047494900994934
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.5382265630178154
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance059.cnf",
@@ -1925,6 +2563,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance059.cnf",
       "drat_path": "proofs/d10up/d10up_instance059.drat",
       "run_json_path": "metadata/d10up/d10up_instance059.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance059.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1946,11 +2585,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 12951.783911217004,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 12951.783911217004
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 21572.645307400962
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance060.cnf",
@@ -1958,6 +2607,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance060.cnf",
       "drat_path": "proofs/d10up/d10up_instance060.drat",
       "run_json_path": "metadata/d10up/d10up_instance060.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance060.check.json",
       "tau": 6,
       "w": [
         1,
@@ -1979,11 +2629,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 17977.129102817038,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 17977.129102817038
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 38094.89630809799
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance061.cnf",
@@ -1991,6 +2651,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance061.cnf",
       "drat_path": "proofs/d10up/d10up_instance061.drat",
       "run_json_path": "metadata/d10up/d10up_instance061.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance061.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2012,11 +2673,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2494.765099443961,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2494.765099443961
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3099.060762375011
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance062.cnf",
@@ -2024,6 +2695,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance062.cnf",
       "drat_path": "proofs/d10up/d10up_instance062.drat",
       "run_json_path": "metadata/d10up/d10up_instance062.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance062.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2045,11 +2717,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 447.28119826101465,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 447.28119826101465
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 424.18929083499825
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance063.cnf",
@@ -2057,6 +2739,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance063.cnf",
       "drat_path": "proofs/d10up/d10up_instance063.drat",
       "run_json_path": "metadata/d10up/d10up_instance063.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance063.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2078,11 +2761,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 197.19862627901603,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 197.19862627901603
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 84.60531869303668
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance064.cnf",
@@ -2090,6 +2783,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance064.cnf",
       "drat_path": "proofs/d10up/d10up_instance064.drat",
       "run_json_path": "metadata/d10up/d10up_instance064.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance064.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2111,11 +2805,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 34.08285417500883,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 34.08285417500883
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 15.591350703965873
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance065.cnf",
@@ -2123,6 +2827,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance065.cnf",
       "drat_path": "proofs/d10up/d10up_instance065.drat",
       "run_json_path": "metadata/d10up/d10up_instance065.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance065.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2144,11 +2849,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.5739373480319045,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.5739373480319045
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.8978711920208298
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance066.cnf",
@@ -2156,6 +2871,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance066.cnf",
       "drat_path": "proofs/d10up/d10up_instance066.drat",
       "run_json_path": "metadata/d10up/d10up_instance066.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance066.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2177,11 +2893,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5261.826419848017,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5261.826419848017
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 7199.250740771007
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance067.cnf",
@@ -2189,6 +2915,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance067.cnf",
       "drat_path": "proofs/d10up/d10up_instance067.drat",
       "run_json_path": "metadata/d10up/d10up_instance067.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance067.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2210,11 +2937,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 14710.919620021014,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 14710.919620021014
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 32656.144245909993
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance068.cnf",
@@ -2222,6 +2959,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance068.cnf",
       "drat_path": "proofs/d10up/d10up_instance068.drat",
       "run_json_path": "metadata/d10up/d10up_instance068.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance068.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2243,11 +2981,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 5655.96615501499,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 5655.96615501499
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 6360.433282590995
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance069.cnf",
@@ -2255,6 +3003,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance069.cnf",
       "drat_path": "proofs/d10up/d10up_instance069.drat",
       "run_json_path": "metadata/d10up/d10up_instance069.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance069.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2276,11 +3025,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1368.8316245290334,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1368.8316245290334
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2091.3760677640093
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance070.cnf",
@@ -2288,6 +3047,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance070.cnf",
       "drat_path": "proofs/d10up/d10up_instance070.drat",
       "run_json_path": "metadata/d10up/d10up_instance070.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance070.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2309,11 +3069,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 536.6718134490075,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 536.6718134490075
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 928.9781729900278
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance071.cnf",
@@ -2321,6 +3091,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance071.cnf",
       "drat_path": "proofs/d10up/d10up_instance071.drat",
       "run_json_path": "metadata/d10up/d10up_instance071.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance071.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2342,11 +3113,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.282883246021811,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.282883246021811
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.822392939007841
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance072.cnf",
@@ -2354,6 +3135,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance072.cnf",
       "drat_path": "proofs/d10up/d10up_instance072.drat",
       "run_json_path": "metadata/d10up/d10up_instance072.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance072.check.json",
       "tau": 6,
       "w": [
         1,
@@ -2375,11 +3157,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.311697238998022,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.311697238998022
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.323295152047649
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance073.cnf",
@@ -2387,6 +3179,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance073.cnf",
       "drat_path": "proofs/d10up/d10up_instance073.drat",
       "run_json_path": "metadata/d10up/d10up_instance073.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance073.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2408,11 +3201,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 7721.093547733035,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 7721.093547733035
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 25163.428100247984
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance074.cnf",
@@ -2420,6 +3223,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance074.cnf",
       "drat_path": "proofs/d10up/d10up_instance074.drat",
       "run_json_path": "metadata/d10up/d10up_instance074.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance074.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2441,11 +3245,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 12669.993937558029,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 12669.993937558029
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 37970.84562279098
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance075.cnf",
@@ -2453,6 +3267,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance075.cnf",
       "drat_path": "proofs/d10up/d10up_instance075.drat",
       "run_json_path": "metadata/d10up/d10up_instance075.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance075.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2474,11 +3289,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 8145.815836284019,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 8145.815836284019
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 18189.197920370963
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance076.cnf",
@@ -2486,6 +3311,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance076.cnf",
       "drat_path": "proofs/d10up/d10up_instance076.drat",
       "run_json_path": "metadata/d10up/d10up_instance076.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance076.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2507,11 +3333,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1022.8481622629915,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1022.8481622629915
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2012.4932424879516
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance077.cnf",
@@ -2519,6 +3355,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance077.cnf",
       "drat_path": "proofs/d10up/d10up_instance077.drat",
       "run_json_path": "metadata/d10up/d10up_instance077.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance077.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2540,11 +3377,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 388.93121795199113,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 388.93121795199113
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 924.2281140699633
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance078.cnf",
@@ -2552,6 +3399,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance078.cnf",
       "drat_path": "proofs/d10up/d10up_instance078.drat",
       "run_json_path": "metadata/d10up/d10up_instance078.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance078.check.json",
       "tau": 6,
       "w": [
         2,
@@ -2573,11 +3421,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.255412961007096,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.255412961007096
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.8615073729888536
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance079.cnf",
@@ -2585,6 +3443,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance079.cnf",
       "drat_path": "proofs/d10up/d10up_instance079.drat",
       "run_json_path": "metadata/d10up/d10up_instance079.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance079.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2606,11 +3465,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.9707140650134534,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.9707140650134534
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.8697927400353365
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance080.cnf",
@@ -2618,6 +3487,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance080.cnf",
       "drat_path": "proofs/d10up/d10up_instance080.drat",
       "run_json_path": "metadata/d10up/d10up_instance080.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance080.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2639,11 +3509,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.350622871017549,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.350622871017549
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.53237736900337
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance081.cnf",
@@ -2651,6 +3531,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance081.cnf",
       "drat_path": "proofs/d10up/d10up_instance081.drat",
       "run_json_path": "metadata/d10up/d10up_instance081.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance081.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2672,11 +3553,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.030674640031066,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.030674640031066
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.7081672649946995
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance082.cnf",
@@ -2684,6 +3575,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance082.cnf",
       "drat_path": "proofs/d10up/d10up_instance082.drat",
       "run_json_path": "metadata/d10up/d10up_instance082.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance082.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2705,11 +3597,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.927227949956432,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.927227949956432
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.69538620399544
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance083.cnf",
@@ -2717,6 +3619,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance083.cnf",
       "drat_path": "proofs/d10up/d10up_instance083.drat",
       "run_json_path": "metadata/d10up/d10up_instance083.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance083.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2738,11 +3641,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 118.89228653599275,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 118.89228653599275
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 271.14643999002874
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance084.cnf",
@@ -2750,6 +3663,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance084.cnf",
       "drat_path": "proofs/d10up/d10up_instance084.drat",
       "run_json_path": "metadata/d10up/d10up_instance084.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance084.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2771,11 +3685,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 113.70684186700964,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 113.70684186700964
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 199.9495995719917
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance085.cnf",
@@ -2783,6 +3707,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance085.cnf",
       "drat_path": "proofs/d10up/d10up_instance085.drat",
       "run_json_path": "metadata/d10up/d10up_instance085.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance085.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2804,11 +3729,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.2491916849976406,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.2491916849976406
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.8651209989911877
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance086.cnf",
@@ -2816,6 +3751,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance086.cnf",
       "drat_path": "proofs/d10up/d10up_instance086.drat",
       "run_json_path": "metadata/d10up/d10up_instance086.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance086.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2837,11 +3773,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 323.7773564219824,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 323.7773564219824
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 613.2375540559879
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance087.cnf",
@@ -2849,6 +3795,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance087.cnf",
       "drat_path": "proofs/d10up/d10up_instance087.drat",
       "run_json_path": "metadata/d10up/d10up_instance087.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance087.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2870,11 +3817,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 444.5389029189828,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 444.5389029189828
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 700.8802829220076
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance088.cnf",
@@ -2882,6 +3839,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance088.cnf",
       "drat_path": "proofs/d10up/d10up_instance088.drat",
       "run_json_path": "metadata/d10up/d10up_instance088.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance088.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2903,11 +3861,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.154016764019616,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.154016764019616
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.469517294957768
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance089.cnf",
@@ -2915,6 +3883,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance089.cnf",
       "drat_path": "proofs/d10up/d10up_instance089.drat",
       "run_json_path": "metadata/d10up/d10up_instance089.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance089.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2936,11 +3905,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.161013978999108,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.161013978999108
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.850161222042516
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance090.cnf",
@@ -2948,6 +3927,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance090.cnf",
       "drat_path": "proofs/d10up/d10up_instance090.drat",
       "run_json_path": "metadata/d10up/d10up_instance090.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance090.check.json",
       "tau": 7,
       "w": [
         1,
@@ -2969,11 +3949,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1155.9033098259824,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1155.9033098259824
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1732.1030386430211
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance091.cnf",
@@ -2981,6 +3971,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance091.cnf",
       "drat_path": "proofs/d10up/d10up_instance091.drat",
       "run_json_path": "metadata/d10up/d10up_instance091.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance091.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3002,11 +3993,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1390.9565802100115,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1390.9565802100115
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 1626.5926436180016
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance092.cnf",
@@ -3014,6 +4015,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance092.cnf",
       "drat_path": "proofs/d10up/d10up_instance092.drat",
       "run_json_path": "metadata/d10up/d10up_instance092.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance092.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3035,11 +4037,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 19.92763152200496,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 19.92763152200496
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 12.079670847975649
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance093.cnf",
@@ -3047,6 +4059,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance093.cnf",
       "drat_path": "proofs/d10up/d10up_instance093.drat",
       "run_json_path": "metadata/d10up/d10up_instance093.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance093.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3068,11 +4081,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.0849984199739993,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.0849984199739993
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 2.881198917981237
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance094.cnf",
@@ -3080,6 +4103,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance094.cnf",
       "drat_path": "proofs/d10up/d10up_instance094.drat",
       "run_json_path": "metadata/d10up/d10up_instance094.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance094.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3101,11 +4125,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.946893738990184,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.946893738990184
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.1735554650076665
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance095.cnf",
@@ -3113,6 +4147,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance095.cnf",
       "drat_path": "proofs/d10up/d10up_instance095.drat",
       "run_json_path": "metadata/d10up/d10up_instance095.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance095.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3134,11 +4169,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2342.9710768520017,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2342.9710768520017
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3250.3866412709467
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance096.cnf",
@@ -3146,6 +4191,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance096.cnf",
       "drat_path": "proofs/d10up/d10up_instance096.drat",
       "run_json_path": "metadata/d10up/d10up_instance096.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance096.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3167,11 +4213,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.978446455032099,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.978446455032099
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.480902720999438
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance097.cnf",
@@ -3179,6 +4235,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance097.cnf",
       "drat_path": "proofs/d10up/d10up_instance097.drat",
       "run_json_path": "metadata/d10up/d10up_instance097.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance097.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3200,11 +4257,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 18.761877181008458,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 18.761877181008458
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 14.310609008010942
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance098.cnf",
@@ -3212,6 +4279,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance098.cnf",
       "drat_path": "proofs/d10up/d10up_instance098.drat",
       "run_json_path": "metadata/d10up/d10up_instance098.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance098.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3233,11 +4301,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.849099641025532,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.849099641025532
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.4449094890151173
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance099.cnf",
@@ -3245,6 +4323,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance099.cnf",
       "drat_path": "proofs/d10up/d10up_instance099.drat",
       "run_json_path": "metadata/d10up/d10up_instance099.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance099.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3266,11 +4345,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.8732578959898092,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.8732578959898092
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.798452506947797
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance100.cnf",
@@ -3278,6 +4367,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance100.cnf",
       "drat_path": "proofs/d10up/d10up_instance100.drat",
       "run_json_path": "metadata/d10up/d10up_instance100.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance100.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3299,11 +4389,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 2.0506869449745864,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 2.0506869449745864
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.5004870630218647
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance101.cnf",
@@ -3311,6 +4411,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance101.cnf",
       "drat_path": "proofs/d10up/d10up_instance101.drat",
       "run_json_path": "metadata/d10up/d10up_instance101.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance101.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3332,11 +4433,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 4337.002078665013,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 4337.002078665013
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5572.022181256034
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance102.cnf",
@@ -3344,6 +4455,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance102.cnf",
       "drat_path": "proofs/d10up/d10up_instance102.drat",
       "run_json_path": "metadata/d10up/d10up_instance102.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance102.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3365,11 +4477,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 14.433172404998913,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 14.433172404998913
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 14.306576621020213
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance103.cnf",
@@ -3377,6 +4499,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance103.cnf",
       "drat_path": "proofs/d10up/d10up_instance103.drat",
       "run_json_path": "metadata/d10up/d10up_instance103.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance103.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3398,11 +4521,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 19.857139887986705,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 19.857139887986705
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 14.547168868011795
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance104.cnf",
@@ -3410,6 +4543,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance104.cnf",
       "drat_path": "proofs/d10up/d10up_instance104.drat",
       "run_json_path": "metadata/d10up/d10up_instance104.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance104.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3431,11 +4565,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 18.455781455966644,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 18.455781455966644
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 13.175170049013104
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance105.cnf",
@@ -3443,6 +4587,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance105.cnf",
       "drat_path": "proofs/d10up/d10up_instance105.drat",
       "run_json_path": "metadata/d10up/d10up_instance105.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance105.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3464,11 +4609,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6649841340258718,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6649841340258718
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.51928491902072
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance106.cnf",
@@ -3476,6 +4631,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance106.cnf",
       "drat_path": "proofs/d10up/d10up_instance106.drat",
       "run_json_path": "metadata/d10up/d10up_instance106.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance106.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3497,11 +4653,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.9346665240009315,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.9346665240009315
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.064761137007736
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance107.cnf",
@@ -3509,6 +4675,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance107.cnf",
       "drat_path": "proofs/d10up/d10up_instance107.drat",
       "run_json_path": "metadata/d10up/d10up_instance107.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance107.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3530,11 +4697,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6494260629988275,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6494260629988275
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.6054887379868887
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance108.cnf",
@@ -3542,6 +4719,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance108.cnf",
       "drat_path": "proofs/d10up/d10up_instance108.drat",
       "run_json_path": "metadata/d10up/d10up_instance108.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance108.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3563,11 +4741,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 6309.775182744954,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 6309.775182744954
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5380.682401886035
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance109.cnf",
@@ -3575,6 +4763,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance109.cnf",
       "drat_path": "proofs/d10up/d10up_instance109.drat",
       "run_json_path": "metadata/d10up/d10up_instance109.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance109.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3596,11 +4785,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 15.246328332985286,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 15.246328332985286
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 12.449142166005913
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance110.cnf",
@@ -3608,6 +4807,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance110.cnf",
       "drat_path": "proofs/d10up/d10up_instance110.drat",
       "run_json_path": "metadata/d10up/d10up_instance110.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance110.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3629,11 +4829,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 19.861756615980994,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 19.861756615980994
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 18.984783181047533
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance111.cnf",
@@ -3641,6 +4851,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance111.cnf",
       "drat_path": "proofs/d10up/d10up_instance111.drat",
       "run_json_path": "metadata/d10up/d10up_instance111.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance111.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3662,11 +4873,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 18.770191063988023,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 18.770191063988023
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 14.88493667403236
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance112.cnf",
@@ -3674,6 +4895,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance112.cnf",
       "drat_path": "proofs/d10up/d10up_instance112.drat",
       "run_json_path": "metadata/d10up/d10up_instance112.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance112.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3695,11 +4917,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.8844222350162454,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.8844222350162454
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.540993226983119
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance113.cnf",
@@ -3707,6 +4939,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance113.cnf",
       "drat_path": "proofs/d10up/d10up_instance113.drat",
       "run_json_path": "metadata/d10up/d10up_instance113.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance113.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3728,11 +4961,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6215556919923984,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6215556919923984
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.272193345997948
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance114.cnf",
@@ -3740,6 +4983,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance114.cnf",
       "drat_path": "proofs/d10up/d10up_instance114.drat",
       "run_json_path": "metadata/d10up/d10up_instance114.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance114.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3761,11 +5005,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6010178939905018,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6010178939905018
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.6125128740095533
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance115.cnf",
@@ -3773,6 +5027,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance115.cnf",
       "drat_path": "proofs/d10up/d10up_instance115.drat",
       "run_json_path": "metadata/d10up/d10up_instance115.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance115.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3794,11 +5049,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.7720815140055493,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.7720815140055493
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 4.9973348950152285
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance116.cnf",
@@ -3806,6 +5071,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance116.cnf",
       "drat_path": "proofs/d10up/d10up_instance116.drat",
       "run_json_path": "metadata/d10up/d10up_instance116.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance116.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3827,11 +5093,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 18.541025520011317,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 18.541025520011317
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 13.915027210954577
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance117.cnf",
@@ -3839,6 +5115,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance117.cnf",
       "drat_path": "proofs/d10up/d10up_instance117.drat",
       "run_json_path": "metadata/d10up/d10up_instance117.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance117.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3860,11 +5137,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 20.88746626797365,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 20.88746626797365
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 13.375632595038041
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance118.cnf",
@@ -3872,6 +5159,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance118.cnf",
       "drat_path": "proofs/d10up/d10up_instance118.drat",
       "run_json_path": "metadata/d10up/d10up_instance118.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance118.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3893,11 +5181,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 22.26345368498005,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 22.26345368498005
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 12.224307777010836
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance119.cnf",
@@ -3905,6 +5203,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance119.cnf",
       "drat_path": "proofs/d10up/d10up_instance119.drat",
       "run_json_path": "metadata/d10up/d10up_instance119.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance119.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3926,11 +5225,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 20.626701768953353,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 20.626701768953353
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 13.732328932033852
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance120.cnf",
@@ -3938,6 +5247,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance120.cnf",
       "drat_path": "proofs/d10up/d10up_instance120.drat",
       "run_json_path": "metadata/d10up/d10up_instance120.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance120.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3959,11 +5269,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.695362679020036,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.695362679020036
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 5.087924899999052
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance121.cnf",
@@ -3971,6 +5291,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance121.cnf",
       "drat_path": "proofs/d10up/d10up_instance121.drat",
       "run_json_path": "metadata/d10up/d10up_instance121.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance121.check.json",
       "tau": 7,
       "w": [
         1,
@@ -3992,11 +5313,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 32.141707034024876,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 32.141707034024876
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 42.361612645036075
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance122.cnf",
@@ -4004,6 +5335,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance122.cnf",
       "drat_path": "proofs/d10up/d10up_instance122.drat",
       "run_json_path": "metadata/d10up/d10up_instance122.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance122.check.json",
       "tau": 7,
       "w": [
         1,
@@ -4025,11 +5357,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 38.68937608296983,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 38.68937608296983
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 34.172054891998414
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance123.cnf",
@@ -4037,6 +5379,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance123.cnf",
       "drat_path": "proofs/d10up/d10up_instance123.drat",
       "run_json_path": "metadata/d10up/d10up_instance123.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance123.check.json",
       "tau": 7,
       "w": [
         1,
@@ -4058,11 +5401,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 39.8901050100103,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 39.8901050100103
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 38.109148231043946
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance124.cnf",
@@ -4070,6 +5423,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance124.cnf",
       "drat_path": "proofs/d10up/d10up_instance124.drat",
       "run_json_path": "metadata/d10up/d10up_instance124.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance124.check.json",
       "tau": 7,
       "w": [
         1,
@@ -4091,11 +5445,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 31.433536535012536,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 31.433536535012536
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 22.603365874034353
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance125.cnf",
@@ -4103,6 +5467,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance125.cnf",
       "drat_path": "proofs/d10up/d10up_instance125.drat",
       "run_json_path": "metadata/d10up/d10up_instance125.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance125.check.json",
       "tau": 7,
       "w": [
         1,
@@ -4124,11 +5489,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 22.405039025994483,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 22.405039025994483
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 12.972890556964558
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance126.cnf",
@@ -4136,6 +5511,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance126.cnf",
       "drat_path": "proofs/d10up/d10up_instance126.drat",
       "run_json_path": "metadata/d10up/d10up_instance126.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance126.check.json",
       "tau": 7,
       "w": [
         2,
@@ -4157,11 +5533,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 87.21404770296067,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 87.21404770296067
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 108.14377528399928
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance127.cnf",
@@ -4169,6 +5555,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance127.cnf",
       "drat_path": "proofs/d10up/d10up_instance127.drat",
       "run_json_path": "metadata/d10up/d10up_instance127.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance127.check.json",
       "tau": 7,
       "w": [
         2,
@@ -4190,11 +5577,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6563909320393577,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6563909320393577
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.5015088620129973
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance128.cnf",
@@ -4202,6 +5599,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance128.cnf",
       "drat_path": "proofs/d10up/d10up_instance128.drat",
       "run_json_path": "metadata/d10up/d10up_instance128.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance128.check.json",
       "tau": 7,
       "w": [
         2,
@@ -4223,11 +5621,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 1.6266645839787088,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 1.6266645839787088
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 3.4039271569927223
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance129.cnf",
@@ -4235,6 +5643,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance129.cnf",
       "drat_path": "proofs/d10up/d10up_instance129.drat",
       "run_json_path": "metadata/d10up/d10up_instance129.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance129.check.json",
       "tau": 7,
       "w": [
         2,
@@ -4256,11 +5665,21 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 23.781816108035855,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 23.781816108035855
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 27.117054084024858
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     },
     {
       "instance": "d10up_instance130.cnf",
@@ -4268,6 +5687,7 @@
       "cnf_path": "cnfs/d10up/d10up_instance130.cnf",
       "drat_path": "proofs/d10up/d10up_instance130.drat",
       "run_json_path": "metadata/d10up/d10up_instance130.run.json",
+      "check_json_path": "metadata/d10up/d10up_instance130.check.json",
       "tau": 7,
       "w": [
         2,
@@ -4289,19 +5709,29 @@
         "result": "unsat",
         "result_consistent": true,
         "returncode": 20,
-        "wall_seconds": 20.82691230304772,
-        "cnf_file_ok": true,
-        "proof_file_ok": true
+        "wall_seconds": 20.82691230304772
       },
-      "status": "solved_unverified"
+      "checker": {
+        "verified": true,
+        "verified_consistent": true,
+        "returncode": 0,
+        "wall_seconds": 19.233928364003077
+      },
+      "cross_check": {
+        "drat_sha256_match": true,
+        "cnf_sha256_match": true,
+        "cnf_file_matches_recorded": true,
+        "drat_file_matches_recorded": true
+      },
+      "status": "verified_unsat"
     }
   ],
-  "verification": "pending",
+  "verification": "verified",
   "counts": {
     "instances": 130,
-    "solved_unverified": 130,
+    "verified_unsat": 130,
     "bad": 0,
     "incomplete": 0,
-    "all_solved": true
+    "all_green": true
   }
 }
