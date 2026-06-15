@@ -131,9 +131,9 @@ If you use this artifact, please cite the paper and the archived record.
 
 ## AI-use note
 
-The authors used large language model tools -- ChatGPT (OpenAI) and Claude
-(Anthropic) -- to prepare and refine the auxiliary reproducibility and
-data-management scripts (`mfmc_runner.py`, `mfmc_verifier.py`,
+The authors used large language model tools --- ChatGPT (OpenAI) and Claude
+(Anthropic) --- to prepare and refine supporting scripts for reproducibility and 
+data-management (`mfmc_runner.py`, `mfmc_verifier.py`,
 `publish_artifacts.py`). The instance generator (`mfmc.py`) and all mathematical
 content of the paper were written by the authors; AI assistance on the generator
 was limited to naming, comments, interface scaffolding, and review. All
